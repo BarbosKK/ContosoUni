@@ -9,4 +9,10 @@
         public Course Course { get; set; }
         public ICollection<Enrollment> Enrollments { get; set; }
     }
+
+    public enum Grade
+    {
+        A, B, C, D, F
+    }
+
 }
